@@ -31,7 +31,7 @@ public class PersonaService {
     }
 
     public ArrayList<Persona> obtenerPorNombre(String nombre){
-        return personaRepository.findByNombre(nombre);
+        return personaRepository.findByNombreContains(nombre);
     }
 
     public boolean eliminarPersona(Integer id){

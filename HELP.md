@@ -3,6 +3,9 @@
 ### Run Application
     ./mvnw spring-boot:run
 
+### Swagger doc
+    http://localhost:8080/swagger-ui/index.html
+
 
 
 ### Reference Documentation
